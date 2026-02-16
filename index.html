@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo ao ProDojo! 🥋</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e5e5e5; }
+    .container { max-width: 680px; margin: 0 auto; padding: 40px 20px; }
+    .header { text-align: center; padding: 40px 0 30px; }
+    .logo { font-size: 42px; font-weight: 800; color: #fff; }
+    .logo span { color: #22c55e; }
+    .subtitle { color: #9ca3af; margin-top: 8px; font-size: 16px; }
+    .welcome-box { background: linear-gradient(135deg, #14532d, #064e3b); border-radius: 16px; padding: 32px; text-align: center; margin: 24px 0; }
+    .welcome-box h1 { font-size: 26px; color: #fff; margin-bottom: 8px; }
+    .welcome-box p { color: #bbf7d0; font-size: 15px; }
+    .steps { margin: 32px 0; }
+    .steps h2 { font-size: 20px; color: #fff; margin-bottom: 20px; text-align: center; }
+    .step { display: flex; gap: 16px; margin-bottom: 24px; align-items: flex-start; }
+    .step-num { min-width: 40px; height: 40px; background: #22c55e; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #000; font-size: 16px; }
+    .step-content h3 { color: #fff; font-size: 16px; margin-bottom: 4px; }
+    .step-content p { color: #9ca3af; font-size: 14px; line-height: 1.5; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 32px 0; }
+    .feature { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: center; }
+    .feature .icon { font-size: 28px; margin-bottom: 8px; }
+    .feature h4 { color: #fff; font-size: 13px; }
+    .cta { text-align: center; margin: 40px 0; }
+    .cta a { display: inline-block; background: #22c55e; color: #000; font-weight: 700; font-size: 18px; padding: 16px 48px; border-radius: 12px; text-decoration: none; transition: background 0.2s; }
+    .cta a:hover { background: #16a34a; }
+    .cta-sub { color: #6b7280; font-size: 13px; margin-top: 10px; }
+    .tips { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 16px; padding: 24px; margin: 32px 0; }
+    .tips h2 { font-size: 18px; color: #fff; margin-bottom: 16px; }
+    .tip { display: flex; gap: 10px; margin-bottom: 12px; font-size: 14px; color: #d1d5db; }
+    .tip span { color: #22c55e; }
+    .footer { text-align: center; padding: 32px 0; border-top: 1px solid #1f1f1f; margin-top: 40px; }
+    .footer p { color: #6b7280; font-size: 13px; }
+    .footer a { color: #22c55e; text-decoration: none; }
+    .support { background: #1c1917; border: 1px solid #292524; border-radius: 12px; padding: 20px; text-align: center; margin: 24px 0; }
+    .support a { color: #22c55e; font-weight: 600; text-decoration: none; }
+    @media (max-width: 480px) { .features { grid-template-columns: 1fr; } .logo { font-size: 32px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">Pro<span>Dojo</span> 🥋</div>
+      <p class="subtitle">Sistema de Gestão para Academias de Jiu-Jitsu</p>
+    </div>
+
+    <div class="welcome-box">
+      <h1>Bem-vindo ao ProDojo!</h1>
+      <p>Sua conta foi criada com sucesso. Vamos configurar tudo em poucos minutos.</p>
+    </div>
+
+    <div class="steps">
+      <h2>🚀 Primeiros Passos</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Acesse o sistema</h3>
+          <p>Faça login em <strong>prodojo.mbam.com.br</strong> com o email e senha que você cadastrou.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Cadastre suas turmas</h3>
+          <p>Vá em <strong>Turmas e Horários</strong> e crie as turmas da sua academia com os dias e horários de treino.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Adicione seus alunos</h3>
+          <p>Em <strong>Gestão de Alunos</strong>, cadastre seus alunos ou compartilhe o link de auto-cadastro para que eles se registrem sozinhos.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h3>Comece a registrar presenças</h3>
+          <p>Use o <strong>Controle de Presença</strong> para registrar a chamada de cada treino. Simples e rápido.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <h3>Configure as graduações</h3>
+          <p>Em <strong>Graduações</strong>, defina os critérios de faixa da sua academia. O sistema calcula automaticamente quem está apto.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a href="https://prodojo.mbam.com.br/login">Acessar o ProDojo →</a>
+      <p class="cta-sub">Você tem 7 dias grátis para explorar todas as funcionalidades</p>
+    </div>
+
+    <h2 style="font-size:18px; color:#fff; text-align:center; margin-bottom:16px;">O que você pode fazer</h2>
+    <div class="features">
+      <div class="feature"><div class="icon">👥</div><h4>Gestão de Alunos</h4></div>
+      <div class="feature"><div class="icon">📋</div><h4>Controle de Presença</h4></div>
+      <div class="feature"><div class="icon">🥋</div><h4>Graduações</h4></div>
+      <div class="feature"><div class="icon">📅</div><h4>Turmas e Horários</h4></div>
+      <div class="feature"><div class="icon">💰</div><h4>Financeiro</h4></div>
+      <div class="feature"><div class="icon">📊</div><h4>Dashboard e Relatórios</h4></div>
+      <div class="feature"><div class="icon">📄</div><h4>Documentos e Saúde</h4></div>
+      <div class="feature"><div class="icon">🏆</div><h4>Premiações</h4></div>
+    </div>
+
+    <div class="tips">
+      <h2>💡 Dicas Rápidas</h2>
+      <div class="tip"><span>✓</span> Compartilhe o link de cadastro com seus alunos para que eles se registrem sozinhos</div>
+      <div class="tip"><span>✓</span> Use o Dashboard para acompanhar pendências e frequência dos alunos</div>
+      <div class="tip"><span>✓</span> Configure as graduações para que o sistema avise quando um aluno estiver apto</div>
+      <div class="tip"><span>✓</span> O sistema funciona no celular — registre presenças direto do tatame</div>
+    </div>
+
+    <div class="support">
+      <p style="margin-bottom:8px;">Precisa de ajuda?</p>
+      <a href="https://wa.me/17866905905">Fale conosco no WhatsApp →</a>
+    </div>
+
+    <div class="footer">
+      <p><strong>ProDojo</strong> — Gestão completa para academias de Jiu-Jitsu</p>
+      <p style="margin-top:6px;"><a href="https://prodojo.mbam.com.br">prodojo.mbam.com.br</a></p>
+      <p style="margin-top:12px;">© 2026 Grupo MBAM. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</body>
+</html>
